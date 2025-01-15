@@ -1,0 +1,65 @@
+/* Dashboard Container */
+.dashboard {
+    width: 100%;
+    max-width: 800px;
+    background: #ffffff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border: none;
+  }
+  
+  /* Dashboard Title */
+  .dashboard h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  /* Dashboard Info */
+  .dashboard p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Bold Labels */
+  .dashboard strong {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* User Info Styling */
+  .dashboard p {
+    background-color: #f9f9f9;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 8px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard p:hover {
+    background-color: #f1f1f1; /* Slight hover effect */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard {
+      padding: 20px;
+      width: 90%;
+    }
+  
+    .dashboard h1 {
+      font-size: 1.7rem;
+    }
+  
+    .dashboard p {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  
